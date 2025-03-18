@@ -23,7 +23,7 @@ const expertRequestSchema = new mongoose.Schema({
     state: {
         type: String,
         enum: Object.values(ExpertRequestStatus),
-        default: 'pending'
+        default: 'PENDING'
     }
 });
 

@@ -93,12 +93,11 @@ class UserService {
         return await newWithdraw.save();
     }
 
-    async getUserLegit(userId) {
-        // const flashcards = await Flashcard.find({ userId });
-        let helpfulScore = 0;
-        const documents = await Document.find({ userId });
-        
-    }
+    // async getUserLegit(userId) {
+    //     const flashcards = await Flashcard.find({ userId });
+    //     let helpfulScore = 0;
+    //     const documents = await Document.find({ userId });
+    // }
 }
 
 export default UserService;
